@@ -26,10 +26,10 @@ const SettingsPage = () => {
     activityAlertEnabled: true,
     activityThresholdLow: 5000,
     activityThresholdHigh: 15000,
-    firebaseApiKey: 'AIzaSyDbi8r5PT1V91oiGvTjjniZkoalYbGGTAA',
-    firebaseDatabaseURL: 'https://cowfit-demo-d2364-default-rtdb.firebaseio.com',
-    firebaseProjectId: 'cowfit-demo-d2364',
-    firebaseAuthDomain: 'cowfit-demo-d2364.firebaseapp.com',
+    firebaseApiKey: 'AIzaSyCDId8q8A4KgeyUOvnEk2sxDJLM8GflQ_0',
+    firebaseDatabaseURL: 'https://gaurakshak-9a785-default-rtdb.firebaseio.com',
+    firebaseProjectId: 'gaurakshak-9a785',
+    firebaseAuthDomain: 'gaurakshak-9a785.firebaseapp.com',
   });
 
   const [isSaved, setIsSaved] = useState(false);
@@ -296,3 +296,4 @@ const SettingsPage = () => {
 };
 
 export default SettingsPage;
+

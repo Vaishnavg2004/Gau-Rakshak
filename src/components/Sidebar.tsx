@@ -22,7 +22,7 @@ export const Sidebar = () => {
             <Beef className="h-6 w-6 text-primary-foreground" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-foreground">CowFit</h1>
+            <h1 className="text-lg font-bold text-foreground">GauRakshak</h1>
             <p className="text-xs text-muted-foreground">Monitor Dashboard</p>
           </div>
         </div>
@@ -51,3 +51,4 @@ export const Sidebar = () => {
     </aside>
   );
 };
+

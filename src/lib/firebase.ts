@@ -6,14 +6,14 @@ const env = import.meta.env;
 
 // Firebase configuration (can be overridden via Vite env vars)
 const firebaseConfig = {
-  apiKey: env.VITE_FIREBASE_API_KEY || "AIzaSyDbi8r5PT1V91oiGvTjjniZkoalYbGGTAA",
-  authDomain: env.VITE_FIREBASE_AUTH_DOMAIN || "cowfit-demo-d2364.firebaseapp.com",
-  databaseURL: env.VITE_FIREBASE_DATABASE_URL || "https://cowfit-demo-d2364-default-rtdb.firebaseio.com",
-  projectId: env.VITE_FIREBASE_PROJECT_ID || "cowfit-demo-d2364",
-  storageBucket: env.VITE_FIREBASE_STORAGE_BUCKET || "cowfit-demo-d2364.firebasestorage.app",
-  messagingSenderId: env.VITE_FIREBASE_MESSAGING_SENDER_ID || "724557214275",
-  appId: env.VITE_FIREBASE_APP_ID || "1:724557214275:web:769100f5a4087de0d6daf6",
-  measurementId: env.VITE_FIREBASE_MEASUREMENT_ID || "G-G8X98B0FCE",
+  apiKey: env.VITE_FIREBASE_API_KEY || "AIzaSyCDId8q8A4KgeyUOvnEk2sxDJLM8GflQ_0",
+  authDomain: env.VITE_FIREBASE_AUTH_DOMAIN || "gaurakshak-9a785.firebaseapp.com",
+  databaseURL: env.VITE_FIREBASE_DATABASE_URL || "https://gaurakshak-9a785-default-rtdb.firebaseio.com",
+  projectId: env.VITE_FIREBASE_PROJECT_ID || "gaurakshak-9a785",
+  storageBucket: env.VITE_FIREBASE_STORAGE_BUCKET || "gaurakshak-9a785.firebasestorage.app",
+  messagingSenderId: env.VITE_FIREBASE_MESSAGING_SENDER_ID || "690967336485",
+  appId: env.VITE_FIREBASE_APP_ID || "1:690967336485:web:f09213c6d3dc906b6c11cc",
+  measurementId: env.VITE_FIREBASE_MEASUREMENT_ID || "G-XYE8N9ZMNS",
 };
 
 // Initialize Firebase
@@ -36,3 +36,4 @@ if (typeof window !== 'undefined') {
 export { analytics };
 
 export default app;
+

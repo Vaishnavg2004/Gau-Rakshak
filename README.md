@@ -1,8 +1,8 @@
-# CowFit - Real-time Cow Monitoring Dashboard
+# GauRakshak - Real-time Cow Monitoring Dashboard
 
 A modern, responsive dashboard for monitoring cow health in real-time using React, Vite, Tailwind CSS, and Firebase Realtime Database.
 
-![CowFit Dashboard](https://lovable.dev/opengraph-image-p98pqg.png)
+![GauRakshak Dashboard](https://lovable.dev/opengraph-image-p98pqg.png)
 
 ## Features
 
@@ -37,7 +37,7 @@ A modern, responsive dashboard for monitoring cow health in real-time using Reac
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd cowfit-dashboard
+cd Gau-Rakshak
 ```
 
 2. Install dependencies:
@@ -81,7 +81,7 @@ The optimized files will be in the `dist` folder.
 ## Project Structure
 
 ```
-cowfit-dashboard/
+Gau-Rakshak/
 ├── src/
 │   ├── components/
 │   │   ├── Sidebar.tsx           # Navigation sidebar
@@ -204,3 +204,4 @@ For issues and questions, please open an issue on GitHub.
 ---
 
 Built with ❤️ for modern cattle farming
+
